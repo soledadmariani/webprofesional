@@ -1,0 +1,141 @@
+.navbar-expand-lg{
+background-color: #722620;
+}
+
+.nav-flex {
+display: flex;
+justify-content: space-between;
+}
+.flex {
+height: 110px;
+}
+
+.nav-item {
+list-style: none;
+}
+
+.avatar {
+width: 90px;
+height: 100px;
+border: 5px solid;
+color: #F2BC94;
+border-radius: 50%;
+}
+
+
+.banner {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #F2BC94;
+	padding: 10px;
+	border: 2px solid #FF540D
+	border-radius: 7px;
+	box-shadow: 2px 2px 5px black;
+    margin-top: 10px;
+}
+.banner h1{
+	color: #722620;
+	text-align: center;
+	font-size: 45px;
+	font-family: times new roman;
+	font-variant: serif;
+}
+
+.banner p{
+	color: #30110D;
+	text-align: center;;
+	font-size: 25px;
+	font-family: times new roman;
+	font-weight: normal;
+}
+
+.btn-link {
+  color: #30110D;
+  border: 2px solid #30110D;
+  padding: 5px 5px;
+  border-radius: 60px;
+  font-weight: bold;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+
+}
+
+.wellcomeButton {
+text-align: justify;
+}
+
+.wellcomeButton p {
+font-size: 20px;
+font-family: times new roman;
+font-weight: bold;
+color: #30110D;
+}
+
+.wellcomeButton a:hover{
+color: #F2BC94;
+text-decoration: none;
+opacity: 0.4;
+}
+
+body {
+margin-top: 10px;
+background-color: #F2BC94;
+}
+
+.card{
+margin-top: 10px;
+background-color: #F2BC94;
+}
+
+.card-body {
+text-align: justify;
+}
+
+.card-body p {
+font-size: 20px;
+font-family: times new roman;
+font-weight: bold;
+color: #30110D;}
+
+.card-body a:hover {
+color: #F2BC94;
+text-decoration: none;
+opacity: 0.4;
+}
+
+
+
+.footer {
+background-color: #30110D;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100px;
+padding: 0px 50px;
+margin-top: 10px;
+color: #F2BC94;
+}
+
+.footerObject{
+list-style: none;
+display: contents;
+align-items: center;
+}
+
+.footerObject a {
+opacity: 0.5;
+}
+
+.footerObject a:hover{
+opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+.footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}}
